@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.shagunbandi.cosmossql.model.User;
-import com.shagunbandi.cosmossql.repository.UserRepository;
+import com.shagunbandi.cosmossql.repository.cosmos.UserRepository;
 
 @Service
 public class CosmosService {
